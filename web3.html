@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Web3 Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .background {
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .register,
+    .login {
+      background-color: #f2f2f2;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 5px;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="submit"] {
+      display: block;
+      margin-bottom: 10px;
+      width: 100%;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">Ana Sayfa</a></li>
+      <li><a href="#">Ürünler</a></li>
+      <li><a href="#">Hesabım</a></li>
+    </ul>
+  </nav>
+
+  <div class="background">
+    <h1>Hoş Geldiniz!</h1>
+    <p>Web3 tabanlı E-ticaret platformuna hoş geldiniz. Hesabınıza giriş yaparak alışveriş yapabilir veya yeni bir hesap oluşturabilirsiniz.</p>
+  </div>
+
+  <div class="register">
+    <h2>Kayıt Ol</h2>
+    <form>
+      <input type="text" placeholder="Kullanıcı Adı">
+      <input type="password" placeholder="Şifre">
+      <input type="submit" value="Kayıt Ol">
+    </form>
+  </div>
+
+  <div class="login">
+    <h2>Giriş Yap</h2>
+    <form>
+      <input type="text" placeholder="Kullanıcı Adı">
+      <input type="password" placeholder="Şifre">
+      <input type="submit" value="Giriş Yap">
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+  <script>
+    // Web3.js kodunu buraya ekleyebilirsiniz
+  </script>
+</body>
+</html>
