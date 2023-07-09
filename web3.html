@@ -60,6 +60,11 @@
       border-radius: 5px;
     }
 
+    .register input[type="submit"]:hover,
+    .login input[type="submit"]:hover {
+      background-color: #ddd;
+    }
+
     h2 {
       margin-top: 0;
     }
@@ -78,6 +83,29 @@
     input[type="submit"]:hover {
       background-color: #e0e0e0;
     }
+
+    .background-text:hover {
+      color: #e0e0e0;
+    }
+
+    /* Responsive Styles */
+
+    @media (max-width: 768px) {
+      .background {
+        height: 300px;
+      }
+
+      .register,
+      .login {
+        margin: 10px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .background {
+        height: 200px;
+      }
+    }
   </style>
 </head>
 
@@ -91,7 +119,7 @@
   </nav>
 
   <div class="background">
-    <h1>Hoş Geldiniz!</h1>
+    <h1 class="background-text">Hoş Geldiniz!</h1>
     <p>Web3 tabanlı E-ticaret platformuna hoş geldiniz. Hesabınıza giriş yaparak alışveriş yapabilir veya yeni bir hesap oluşturabilirsiniz.</p>
   </div>
 
